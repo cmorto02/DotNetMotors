@@ -6,6 +6,6 @@ namespace DotNetMotors.Classes
 {
     interface INotClaustrophobic
     {
-        void NotClaustrophobic();
+        bool NotClaustrophobic();
     }
 }

@@ -6,6 +6,6 @@ namespace DotNetMotors.Classes
 {
     interface IAdvancedTraining
     {
-        void CertRequired();
+        bool CertRequired();
     }
 }

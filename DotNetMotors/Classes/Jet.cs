@@ -10,7 +10,7 @@ namespace DotNetMotors.Classes
         public override bool IsAFlock(int numOfAirVehicles)
         {
             Console.WriteLine("A group of jets isnt a flock, its a gaggle.");
-            return base.IsAFlock(numOfAirVehicles);
+            return false;
         }
     }
 }

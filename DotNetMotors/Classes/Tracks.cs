@@ -8,15 +8,13 @@ namespace DotNetMotors.Classes
     {
         public override int NumberOfWheeles { get; set; } = 40;
         public override int Speed { get; set; } = 40;
+        public override bool CarriesPeople { get; set; } = true;
+        public override bool RequiresLiscense { get; set; } = true;
 
         public override void Honks()
         {
             Console.WriteLine("Get off the tracks!!!! HOOOOOOOOOOOOOONK!");
         }
-        public override bool CarriesPeople { get; set; } = true;
-
-        public override bool RequiresLiscense { get; set; } = true;
-
         public override void TurnOn()
         {
             Console.WriteLine("AAAAaaaaaalllll AAABBBOOOOOAAARRRRDDDDD!");
@@ -29,10 +27,10 @@ namespace DotNetMotors.Classes
             }
             return false;
         }
-
-        public void CertRequired()
+        public bool CertRequired()
         {
             Console.WriteLine("Engineers require advanced certification");
+            return true;
         }
     }
 }
