@@ -22,6 +22,7 @@ Receiving existing properties or methods from existing classes. From the parent 
 #### Encapsulation:
 When a group of methods and properties are treated as a single thing. We achieved encapsulation by creating many individual classes to describe different things. All of the methods and properties within that class are treated as one package.
 
+#### Interfaces:
 An interface is something that allows us to group together items that are not in the same heirarchical branch. In our example we used the AdvancedTraining and the NotClaustrophobic Interfaces with Air and Tracks and Air and Under classes respectively. The AdvancedTraining interfaces is to be used on classes that require advanced training and the NotClaustrophobic is used on classes where the operator should not be claustrophobic.
 
 ### Getting Started
