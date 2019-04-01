@@ -21,9 +21,10 @@ namespace DotNetMotors.Classes
             Console.WriteLine("Get the drill ready!");
         }
 
-        void INotClaustrophobic.NotClaustrophobic()
+        bool INotClaustrophobic.NotClaustrophobic()
         {
             Console.WriteLine("Those working undergroound should not be claustrophobic");
+            return true;
         }
     }
 }

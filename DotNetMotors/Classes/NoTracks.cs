@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DotNetMotors.Classes
 {
-    class NoTracks : On
+    public class NoTracks : On
     {
         public override bool CarriesPeople { get; set; } = true;
         public override bool RequiresLiscense { get; set; } = true;
